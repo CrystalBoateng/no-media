@@ -1,3 +1,3 @@
 # NoMedia
-JavaScript bookmarklet to remove all images/videos from webpages.
+Download the repository and open installer.html.
 ![Screenshot of installation screen with white text on purple and orange bokeh.](screenshot.JPG)
