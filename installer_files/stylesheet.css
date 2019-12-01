@@ -25,10 +25,10 @@
 	}
 
 /* Header*/
-	#header {
+	header {
 		margin: 57.6px 0 170px;
 	}
-	#header h1 {
+	h1 {
 		font-family: 'Raleway', sans-serif;
 		font-size: 86px;
 		font-variant: small-caps;
@@ -37,20 +37,20 @@
 		text-align: center;
 		text-shadow: 0 0 11px black;
 	}
-	#header #directions {
+	header p {
 		text-align: center;
 		margin: 0;
 		text-shadow: 0 0 17px black;
 	}
-	#header #directions a {
-		color: #ffc5e2;
+	header p a {
+		color: #c5ffef;
 	}
 
 /* Body */
-	#tasks {
+	section {
 		padding: 0 3%
 	}
-	#tasks div {
+	div {
 		float: left;
 		display: block;
 		width: 25.33%;
@@ -58,10 +58,10 @@
 		margin: 0 1% 51px;
 	}
 	@media only screen and (max-width: 767px) {
-		#header {
+		header {
 			margin: 57.6px 0;
 		}
-		#tasks div {
+		div {
 			float: none;
 			width: 94%;
 		}
@@ -92,7 +92,7 @@
 		text-decoration: none;
 		text-shadow: none;
 	}
-	#photo-credit {
+	footer {
 		position: absolute;
 		text-shadow: 
 			2px 1px 22px black, 
@@ -103,6 +103,6 @@
 		right: 0;
 		font-size: 15px;
 	}
-	#photo-credit a {
+	footer a {
 		color: white;
 	}

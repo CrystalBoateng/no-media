@@ -4,19 +4,18 @@
     <title>No Media</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
   	<link rel="stylesheet" type="text/css" href="installer_files/stylesheet.css">
-  	<script type="text/javascript" src="installer_files/javascript.js"></script>
   	<meta charset="UTF-8">
   </head>
 
   <body>
-    <div id="header">
+    <header>
       <h1>No Media</h1>
-      <p id="directions">A <a href="https://en.wikipedia.org/wiki/Bookmarklet" target="_blank">bookmarklet</a> to remove images, videos, and audio from any webpage.<br />Also changes fonts to Verdana, to increase readability.</p>
-    </div>
-    <div id="tasks">
+      <p>A <a href="https://en.wikipedia.org/wiki/Bookmarklet" target="_blank">bookmarklet</a> to remove images, videos, and audio from any webpage.<br />Also changes fonts to Verdana to minimize eyestrain.</p>
+    </header>
+    <section>
       <div>
         <h2>Install</h2>
-        <p>Drag this button to your Bookmarks Toolbar: <span id="button-wrapper"><a href="
+        <p>Drag this button into your Bookmarks Toolbar: <span id="button-wrapper"><a href="
       javascript:(function(){
         let images=document.getElementsByTagName('img');
         for(let i=0;i<images.length;i+1){
@@ -45,7 +44,7 @@
         <h2>Uninstall</h2>
         <p>Simply delete the bookmark.</p>
       </div>
-    </div>
-    <div id="photo-credit">Photo Credit: <a href="https://www.dreamstime.com/blurred-bokeh-buildings-public-domain-image-free-116857327" target="_blank">© Rawpixel Images</a></div>
+    </section>
+    <footer>Photo Credit: <a href="https://www.dreamstime.com/blurred-bokeh-buildings-public-domain-image-free-116857327" target="_blank">© Rawpixel Images</a></footer>
   </body>
 </html>
